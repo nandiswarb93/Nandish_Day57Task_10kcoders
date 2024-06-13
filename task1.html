@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+    <pre>
+        a = Math.max(1,2,3,4,5,6,7,8,9)
+
+console.log(a)
+b = Math.min(1,2,3,4,5,6,7,8,9)
+
+console.log(b)
+
+c = Math.round(5.459)
+console.log(c)
+
+d=Math.floor(5.7)
+console.log(d)
+
+e = Math.ceil(6.7)
+console.log(e)
+
+f = Math.random(10,90)
+console.log(f)
+
+sum =0
+g = [1,2,3,4,5,6,7,8,9]
+g.forEach(function(item,idx){
+   sum+=item;
+
+})
+console.log(sum)
+sum1 = 0
+h = [1,2,3,4,5,6,7,8,9]
+h.map(function(item,idx)
+{
+    sum1+=item;
+})
+console.log(sum1)
+i = [1,2,3,4,5,6,7,8,9]
+
+i.filter(function(val,idx,arr)
+{
+    console.log(val>2)
+})
+j=[1,2,3,4,5,6,7,8,9]
+l=j.sort((a,b)=>{
+    a-b
+})
+console.log(l)
+
+m=[1,2,3,4,5,6,7,8,9]
+n1 = m.every(n=>n>2)
+console.log(n1)
+
+    </pre>
+    
+    <script>
+
+a = Math.max(1,2,3,4,5,6,7,8,9)
+
+console.log(a)
+b = Math.min(1,2,3,4,5,6,7,8,9)
+
+console.log(b)
+
+c = Math.round(5.459)
+console.log(c)
+
+d=Math.floor(5.7)
+console.log(d)
+
+e = Math.ceil(6.7)
+console.log(e)
+
+f = Math.random(10,90)
+console.log(f)
+
+sum =0
+g = [1,2,3,4,5,6,7,8,9]
+g.forEach(function(item,idx){
+   sum+=item;
+
+})
+console.log(sum)
+sum1 = 0
+h = [1,2,3,4,5,6,7,8,9]
+h.map(function(item,idx)
+{
+    sum1+=item;
+})
+console.log(sum1)
+i = [1,2,3,4,5,6,7,8,9]
+
+i.filter(function(val,idx,arr)
+{
+    console.log(val>2)
+})
+j=[1,2,3,4,5,6,7,8,9]
+l=j.sort((a,b)=>{
+    a-b
+})
+console.log(l)
+
+m=[1,2,3,4,5,6,7,8,9]
+n1 = m.every(n=>n>2)
+console.log(n1)
+
+
+
+    </script>
+</body>
+</html>
